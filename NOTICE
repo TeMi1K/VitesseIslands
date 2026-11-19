@@ -15,6 +15,10 @@ This product includes or is derived from the following third-party works.
    File: platform/platform-resources/src/themes/islands/ManyIslandsDark.theme.json
    Copyright JetBrains s.r.o. and contributors.
    Licensed under the Apache License, Version 2.0 (licenses/Apache-2.0.txt).
+   The upstream NOTICE.txt of that project reads:
+     This software includes code from IntelliJ IDEA
+     Copyright (C) JetBrains s.r.o.
+     https://www.jetbrains.com/idea/
 
 3. Rider "Rider Islands Dark" editor color scheme
    https://github.com/JetBrains/rider-theme-pack  (commit b4209211062d1700292cb015f4bc29c2e5aa930b)
