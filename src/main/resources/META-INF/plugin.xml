@@ -1,0 +1,52 @@
+<idea-plugin>
+    <id>io.github.temi1k.vitesse-islands</id>
+    <name>Vitesse Islands</name>
+    <version>1.0.0</version>
+    <vendor url="https://github.com/TeMi1K">thequestionmarked</vendor>
+
+    <description><![CDATA[
+    <p>The calm, low-contrast <b>Vitesse</b> palette, rebuilt for the new <b>Islands</b> UI.</p>
+
+    <p>Two variants are included:</p>
+    <ul>
+      <li><b>Vitesse Dark Islands</b>: deep <code>#121212</code> background, muted and easy on the eyes.</li>
+      <li><b>Vitesse Soft Islands</b>: softer <code>#222</code> background with livelier, more saturated colors.</li>
+    </ul>
+
+    <p><b>What's different from a straight port</b></p>
+    <ul>
+      <li>UI themes inherit from <b>Islands Dark</b>, so islands, rounded corners and spacing stay native.
+          Cool blue-greys are replaced by Vitesse's warm neutral greys and cream text; the blue accent becomes Vitesse green.</li>
+      <li>Full <b>C# / Rider</b> coverage through ReSharper highlighting keys: declaration keywords and control flow
+          get separate colors, records, structs, interfaces, properties, fields, events and constants are all distinct.</li>
+      <li>Bold keywords and italic types, methods and properties make code structure easy to scan.</li>
+      <li>Hues are tuned so neighbouring token kinds never blend: classes, structs, interfaces, methods and numbers
+          each get their own color.</li>
+      <li>JS/TS, JSON, XML, YAML, diffs, search results, console and debugger colors follow the same palette.</li>
+    </ul>
+
+    <p>Requires an IDE version 2025.3 or newer (Islands UI).</p>
+
+    <p>Palette based on <a href="https://github.com/antfu/vscode-theme-vitesse">Vitesse by Anthony Fu</a> (MIT).
+       UI and editor base derived from JetBrains Islands Dark and Rider Islands Dark (Apache-2.0).
+       Not affiliated with or endorsed by the Vitesse author or JetBrains.</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <p><b>1.0.0</b>: first public release.</p>
+    <ul>
+      <li>Vitesse Dark Islands and Vitesse Soft Islands UI themes with matching editor color schemes.</li>
+      <li>C#/Rider highlighting with bold keywords, italic types and members, distinct hues per token kind.</li>
+    </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+    <idea-version since-build="253"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme id="Vitesse Dark Islands" path="/colorSchemes/VitesseDarkIslands"/>
+        <bundledColorScheme id="Vitesse Soft Islands" path="/colorSchemes/VitesseSoftIslands"/>
+        <themeProvider id="io.github.temi1k.vitesse-dark-islands" path="/themes/vitesse_dark_islands.theme.json"/>
+        <themeProvider id="io.github.temi1k.vitesse-soft-islands" path="/themes/vitesse_soft_islands.theme.json"/>
+    </extensions>
+</idea-plugin>

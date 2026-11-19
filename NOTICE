@@ -1,0 +1,36 @@
+Vitesse Islands
+Copyright (c) 2026 thequestionmarked
+
+This product includes or is derived from the following third-party works.
+
+1. Vitesse theme
+   https://github.com/antfu/vscode-theme-vitesse  (commit 2862595c3d5d05fabfd5aeb50bcbb79ea2f8d85f)
+   Copyright (c) 2020 Primer
+   Copyright (c) 2021 Anthony Fu
+   Licensed under the MIT License (licenses/Vitesse-MIT.txt).
+   Used: color palette and token-to-color mapping, adapted and extended.
+
+2. IntelliJ Platform "Islands Dark" UI theme
+   https://github.com/JetBrains/intellij-community  (commit 86ff40eb316568259dca7fc141c2aeb334ef8524)
+   File: platform/platform-resources/src/themes/islands/ManyIslandsDark.theme.json
+   Copyright JetBrains s.r.o. and contributors.
+   Licensed under the Apache License, Version 2.0 (licenses/Apache-2.0.txt).
+
+3. Rider "Rider Islands Dark" editor color scheme
+   https://github.com/JetBrains/rider-theme-pack  (commit b4209211062d1700292cb015f4bc29c2e5aa930b)
+   File: src/main/resources/colorSchemes/RiderIslandsDark.xml
+   Copyright JetBrains s.r.o. and contributors.
+   Licensed under the Apache License, Version 2.0 (licenses/Apache-2.0.txt).
+
+Modifications (Apache-2.0, section 4(b)):
+   The files listed in items 2 and 3 were modified by thequestionmarked in 2026
+   by the generator in scripts/build.py. The UI theme was renamed, set to inherit
+   from "Islands Dark", and its grey and blue palettes and hard-coded colors were
+   remapped to the Vitesse palette. The editor scheme was renamed, its colors were
+   remapped to the Vitesse palette, and many highlighting attributes (C#/ReSharper,
+   language defaults, console, diff, search) were replaced with new values.
+   The generated files are themes/*.theme.json and colorSchemes/*.xml.
+
+Vitesse Islands is an independent project. It is not affiliated with, sponsored
+by or endorsed by Anthony Fu or JetBrains s.r.o. "JetBrains", "Rider" and
+"IntelliJ" are trademarks of JetBrains s.r.o.
