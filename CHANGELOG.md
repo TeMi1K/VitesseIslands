@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.1
+- New plugin logo.
+
 ## 1.0.0
 - First public release.
 - Vitesse Dark Islands and Vitesse Soft Islands UI themes, inheriting from Islands Dark.

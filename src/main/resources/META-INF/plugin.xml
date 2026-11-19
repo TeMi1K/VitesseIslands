@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>io.github.temi1k.vitesse-islands</id>
     <name>Vitesse Islands</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor url="https://github.com/TeMi1K">thequestionmarked</vendor>
 
     <description><![CDATA[
@@ -33,6 +33,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
+    <p><b>1.0.1</b>: new plugin logo.</p>
     <p><b>1.0.0</b>: first public release.</p>
     <ul>
       <li>Vitesse Dark Islands and Vitesse Soft Islands UI themes with matching editor color schemes.</li>
